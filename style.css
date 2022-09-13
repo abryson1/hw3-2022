@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Verdana;
+    /* #'how do you make a back up font?' */
+    background-color: black;
+    color: #FFFFFF;
+    /* change to hex color  */
+    margin-top: 20pt;
+    margin-bottom: 0pt;
+}
+
+h1{
+    font-size: 45pt;
+    text-align: center;
+    padding: 15pt ;
+}
+
+h2{
+    color: #0D0D0D;
+    font-size: 30px;
+}
+p{
+    font: 24pt;
+    padding-top: 10pt;
+    padding-left: 10pt;
+}
+img{
+    width: 250px;
+    margin: auto;
+    display: block;
+    border-style: dashed;
+    border-width: 10pt;
+    border-color: white;
+
+}
+
+div{
+    min-height: 125pt;
+    padding: 20pt;
+    border: 3pt;
+    border-color: white
+
+}
+div.introduction{
+    border: solid;
+    border-radius: 5pt;
+    border-color: white;
+    margin: 15pt;
+    line-height: 2;
+}
+div.red{
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50pt;
+    border-style: solid;
+    border-bottom: 2pt;
+    border-left: 5pt;
+}
+div.blue{
+    background-color: blue;
+    /* change to hex color */
+    text-align: left;
+    margin-right: 50pt;
+    border-style: solid;
+    border-right: 5pt;
+    border-top: 2pt;
+
+}
+div.yellow{
+    background-color: yellow;
+    text-align: right;
+    margin-left: 50pt;
+    border-style: solid;
+    border-bottom: 2pt;
+    border-left: 5pt;
+
+}
+div.green{
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50pt;
+    border-style: solid;
+    border-right: 5pt;
+    border-top: 2pt;
+
+}
+footer{
+    background-color: #0066ff;
+    border: white;
+    border-width: 5pt;
+    background-image: linear-gradient( #0066ff, #0000ff);
+}
+
+footer.p{
+    text-align: right;
+    padding-top: 15pt;
+    padding-right: 15pt;
+    padding-bottom: 15pt;
+}
