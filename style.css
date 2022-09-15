@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Verdana;
-    background-color: black;
+    background-color: #000000;
     color: #FFFFFF;
     margin-top: 20px;
     margin-left: 20px;
@@ -9,9 +9,12 @@ body {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 42px;
     text-align: center;
     padding: 15px ;
+}
+blue-div + h2{
+    color: #C4C4C4;
 }
 
 h2 {
@@ -29,6 +32,7 @@ img {
     width: 250px;
     margin: auto;
     display: block;
+    text-align: center;
     border-style: dashed;
     border-width: 10px;
     border-color: white;
@@ -60,40 +64,42 @@ div.red {
 }
 
 div.blue {
-    background-color: blue;
-    /* change to hex color */
+    background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
     border-style: solid;
     border-left: 5px;
     border-bottom: 2px;
     color: #C4C4C4;
-
-
+    
 }
+
 div.yellow {
-    background-color: yellow;
+    background-color:#FFFF00 ;
     text-align: right;
     margin-left: 50px;
     border-style: solid;
-    border-top: 2px;
+    border-top: 10px;
     border-right: 5px;
+    color: #707070;
+}
+.blue h2{
     color: #C4C4C4;
 }
-
 div.green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-style: solid;
     border-left: 5px;
-    border-bottom: 2px;
+    border-bottom: 100px;
 
 }
 
 footer {
     background-color: #0066ff;
     border: white;
+    text-align: right;
     border-style: solid;
     border-width: 5px;
     font-size: 20px;
