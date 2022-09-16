@@ -65,7 +65,7 @@ div {
 Margin of 15px margin on the top
 Double-spaced text */
 
-div.introduction {
+.introduction {
     border: solid;
     border-radius: 15px;
     border-color: white;
@@ -78,15 +78,16 @@ Text is aligned on the right side
 A left margin of 50px;
 A  border of 2px on the bottom and 5px on the left; */
 
-div.red {
+.red {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
     border-style: solid;
-    border-bottom-width: 2px;
+    border-width: 0px 0px 2px 5px;
+    /* border-bottom-width: 2px;
     border-left-width: 5px;
     border-top: none;
-    border-right: none;
+    border-right: none; */
 }
 
 /* Background color is hex value for blue
@@ -94,19 +95,13 @@ Text is aligned on the left side
 A right margin of 50px;
 A  border of 5px on the right and 2px on the top; */
 
-div.blue {
+.blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-style: solid;
-    border-left: none;
-    border-bottom: none;
-    border-top-width: 2px;
-    border-right-width: 5px;
-    color: #C4C4C4;
-    
+    border-width: 2px 5px 0px 0px ;
 }
-.blue h2{
+.blue h2, .blue p {
     color: #C4C4C4;
 }
 
@@ -115,15 +110,16 @@ Text is aligned on the right side
 A left margin of 50px;
 A border of 2px on the bottom and 5px on the left; */
 
-div.yellow {
+.yellow {
     background-color:#FFFF00 ;
     text-align: right;
     margin-left: 50px;
     border-style: solid;
-    border-bottom-width: 2px;
+    border-width: 0px 0px 2px 5px;
+    /* border-bottom-width: 2px;
     border-left-width: 5px;
     border-top: none;
-    border-right: none;
+    border-right: none; */
     color: #707070;
 }
 
@@ -132,15 +128,16 @@ Text is aligned on the left side
 A right margin of 50px;
 A  border of 5px on the right and 2px on the top; */
 
-div.green {
+.green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-style: solid;
-    border-right-width: 5px;
+    border-width: 2px 5px 0px 0px;
+    /* border-right-width: 5px;
     border-top-width: 2px;
     border-left: none;
-    border-bottom: none;
+    border-bottom: none; */
 
 }
 /* a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000.
@@ -148,22 +145,18 @@ A 5px solid white border. */
 
 footer {
     background-color: #0066ff;
-    border: white;
+    border: 5px solid #FFFFFF;
     text-align: right;
-    border-style: solid;
-    border-width: 5px;
-    font-size: 20px;
+    /* border-style: solid;
+    border-width: 5px; */
     background: linear-gradient(90deg,  #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
 }
 
 /* 20px text that is aligned to the right.
 Padding of 15px on the top, right, and bottom only. (No padding on the left.) */
 
-footer.p {
+footer p {
     text-align: right;
     font-size: 20px;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 0px;
+    padding: 15px 15px 15px 0px;
 }
